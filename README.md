@@ -24,4 +24,4 @@ This project utilizes a Simulink model to simulate and control a car system dyna
 - **Acceleration Test**: Tests the vehicle's acceleration capabilities using a sophisticated gear shifting strategy to optimize power usage.
 
 ## Codes
-final.slx is the simulink model on which all the test have been carried out. It is possible to change the configuration by using the driver interface block. Remember to run vehicle_param.m before launching the simulink.
+`final.slx` is the simulink model on which all the tests have been carried out. It is possible to change the configuration by using the driver interface block. Remember to run `vehicle_params.m` before launching the simulink.
