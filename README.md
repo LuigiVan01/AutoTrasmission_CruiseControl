@@ -36,9 +36,8 @@ For maximum acceleration (e.g., during a 0-100 km/h run), the transmission shoul
 
 A real transmission must adapt. Shifting at maximum power is inefficient for casual driving. To solve this, the shift thresholds are not fixed; they are **functions of the throttle aperture (`delta`)**. Using MATLAB's `polyfit` function, I created cubic polynomials that map throttle input to a corresponding shift speed. This allows the system to shift at high RPMs under full throttle and low RPMs under light throttle. The plots below show the fitted curves for the gear change thresholds.
 
-| Image 1 | Image 2 |
-|---------|---------|
-| ![Polynomial Fitting for Shift Thresholds](./images/threshold_fitting1.png) | ![Polynomial Fitting for Shift Thresholds](./images/threshold_fitting2.png) |
+![Polynomial Fitting for Shift Thresholds](./images/threshold_fitting1.png)
+![Polynomial Fitting for Shift Thresholds](./images/threshold_fitting2.png)
 
 ### The StateFlow Machine
 
