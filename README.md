@@ -3,7 +3,7 @@
 This repository contains a MATLAB and Simulink project for the modeling, simulation, and analysis of an auto-trasmission cruise control system. The model implements a non-linear vehicle dynamics model, a Proportional-Integral (PI) controller for speed regulation, and a 5-speed automatic gear shifting logic using a StateFlow finite state machine.
 
 
-![Simulink Model Overview](./images/simulink-model-overview.png)
+![Simulink Model Overview](./images/loop.png)
 
 ## Features
 
