@@ -11,7 +11,7 @@ This repository contains a MATLAB and Simulink project for the modeling, simulat
   - Tractive force from the engine based on throttle and engine speed.
   - Disturbance forces: aerodynamic drag, rolling friction, and gravitational load.
 - **PI Cruise Controller:** A Proportional-plus-Integral (PI) controller maintains the vehicle's speed at a desired setpoint, complete with an anti-windup mechanism.
-- ** Automatic Gear Shifting:** A 5-state StateFlow machine manages gear changes with a throttle-dependent logic, allowing for both aggressive (power-focused) and efficient (economy-focused) driving styles.
+- **Automatic Gear Shifting:** A 5-state StateFlow machine manages gear changes with a throttle-dependent logic, allowing for both aggressive (power-focused) and efficient (economy-focused) driving styles.
 - **Interactive Simulation:** A `Driver Interface` block allows for real-time control of the desired speed, manual throttle, cruise control activation, and gear selection mode.
 
 ## Repo Structure
